@@ -5,28 +5,23 @@ Bi-directional LSTM recurrent neural networks (C++ / OpenCV).
 
 To run this code, you should have 
 
-* OpenCV.
+* OpenCV
 
-##Compile & Run
+## Compile & Run
 * Compile by running:
+
 ```
-cmake .
+mkdir build
+cmake ..
 make
 ```
-* Run: 
+
+* Run:
+
 ```
 ./lstm
 ```
-##Structure and Algorithm
-See [my tech-blog](http://eric-yuan.me/rnn2-lstm/).
 
-##UPDATES
-* word2vec supported.
-* bi-directional LSTM.
-* CoNLL04 dataset support.
+## Structure and Algorithm
+See [Eric Yuan's blog](http://eric-yuan.me/rnn2-lstm/).
 
-
-## Config Files
-
-#### Multi-Layer
-This network supports multiple hidden layers.
